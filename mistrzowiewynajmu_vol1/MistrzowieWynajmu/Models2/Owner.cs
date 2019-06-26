@@ -7,7 +7,7 @@ namespace MistrzowieWynajmu.Models2
 {
     public class Owner
     {
-        public int ID { get; set; }
+        public int OwnerId { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Phone { get; set; }
